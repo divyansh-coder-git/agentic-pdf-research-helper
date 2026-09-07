@@ -1,6 +1,4 @@
 import streamlit as st
-import os
-import tempfile
 from data_ingestion import process_pdf
 from graph import build_agent, format_chat_history
 
