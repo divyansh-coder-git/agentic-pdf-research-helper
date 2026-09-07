@@ -10,3 +10,4 @@ faiss-cpu
 sentence-transformers
 pypdf
 python-dotenv
+torchvision

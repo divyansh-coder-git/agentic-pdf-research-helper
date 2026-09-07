@@ -1,2 +1,10 @@
 .env
-myenv
+myenv/
+__pycache__/
+*.pyc
+.streamlit/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.ipynb_checkpoints/
