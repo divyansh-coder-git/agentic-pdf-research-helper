@@ -2,7 +2,7 @@
 
 A small agentic RAG (Retrieval-Augmented Generation) app that lets you upload a PDF and ask it questions in a chat interface. Built to learn LangChain, LangGraph, FAISS, embeddings, and basic agentic workflows from the ground up — the graph is hand-built with explicit nodes, state, and conditional edges rather than relying on high-level agent abstractions.
 
-**Live demo:** _add your Streamlit Cloud link here once deployed_
+**Live demo:** [https://chat-my-pdf-ai.streamlit.app/](https://chat-my-pdf-ai.streamlit.app/)
 
 ## Pipeline
 
@@ -65,11 +65,7 @@ agentic-pdf-assistant/
    pip install -r requirements.txt
    ```
 
-3. Get a free API key from [console.groq.com](https://console.groq.com), then create a `.env` file (copy `.env.example`):
-   ```bash
-   cp .env.example .env
-   # then edit .env and paste your real key
-   ```
+3. Get a free API key from [console.groq.com](https://console.groq.com), then put it in `.env` file:
 
 4. Run the app:
    ```bash
