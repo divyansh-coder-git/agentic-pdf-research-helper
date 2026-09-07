@@ -54,10 +54,10 @@ agentic-pdf-assistant/
 
 1. Clone the repo and set up a virtual environment:
    ```bash
-   git clone <your-repo-url>
-   cd agentic-pdf-assistant
+   git clone https://github.com/divyansh-coder-git/agentic-pdf-research-helper
+   cd agentic-pdf-research-helper
    python -m venv venv
-   venv\\Scripts\\activate
+   venv\Scripts\activate
    ```
 
 2. Install dependencies:
