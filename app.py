@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 st.title("Agentic PDF Research Assistant")
-st.write("Upload PDF File to start")
+st.write("Upload PDF File in the sidebar to start")
 
 if "vectorstore" not in st.session_state:
     st.session_state.vectorstore = None
