@@ -11,6 +11,7 @@ PDF → Chunking → Embeddings → FAISS → Classify → Retrieve/Summarize �
 ```
 
 ## How it works
+**_There is a notebook in this folder named "walkthrough.ipynb", you can check that notebook out for hands-own working trial...._**
 
 The app is a **LangGraph state machine**, not a fixed linear pipeline. Every question flows through these nodes:
 
@@ -86,3 +87,7 @@ agentic-pdf-assistant/
 - Map-reduce summarization for full-document coverage
 - A structured-extraction node for list-style questions (e.g. "list the authors")
 - Swap FAISS for a hosted vector DB (Chroma/Pinecone) for persistence across sessions
+
+
+**__Made with 🫀 by Divyansh Pandey__**<br>
+**_Special thanks to claude and chatgpt for helping me write README and the walkthrough notebook_**
