@@ -2,6 +2,12 @@ import streamlit as st
 from data_ingestion import process_pdf
 from graph import build_agent, format_chat_history
 
+st.set_page_config(
+    page_title="Chat My PDF",
+    page_icon="🤖",
+    layout="centered",
+)
+
 st.title("Agentic PDF Research Assistant")
 st.write("Upload PDF File to start")
 
